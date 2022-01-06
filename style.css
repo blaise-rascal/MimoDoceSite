@@ -1,7 +1,7 @@
 body {
   /*font-family: 'Courier New', Courier, monospace;*/
   /*font-family: 'Yu Gothic', Courier, monospace;*/
-  font-family: "Objects sans regular", Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   /*font-family: 'Honey', Helvetica, sans-serif;*/
   /*font-weight:bold;*/
   color:black;
@@ -46,8 +46,8 @@ a {
   
   display: block;
   text-align: center;
-  padding: 8px;
   color:black;
+  padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
   /*background-color:#ffc5e0*/
@@ -61,18 +61,23 @@ a {
   padding:0px;
   text-align: center;
   max-width:700px;
-  font-size: 65px;
-  font-size: 90px;
+  font-size: 80px;
   margin-left:auto;
   margin-right:auto;
   margin-top:20px;
   margin-bottom:40px;
-  /*text-transform: uppercase;*/
-  font-family: 'Brush Script MT', cursive;
+  /*font-family: 'Sacramento', cursive;*/
+  /*text-transform: lowercase;
+  /*font-family: 'Brush Script MT', cursive;*/
 }
 
+.cursive{
+  font-family: 'Clicker Script', cursive;
+  font-size: 100px;
+
+}
 .h2{
-  font-family: 'Honey', Helvetica, sans-serif;
+  /*font-family: 'Honey', Helvetica, sans-serif;*/
   padding:0px;
   text-align: center;
   max-width:700px;
