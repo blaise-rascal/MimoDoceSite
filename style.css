@@ -2,6 +2,7 @@ body {
   /*font-family: 'Courier New', Courier, monospace;*/
   /*font-family: 'Yu Gothic', Courier, monospace;*/
   font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
   /*font-family: 'Honey', Helvetica, sans-serif;*/
   /*font-weight:bold;*/
   color:black;
@@ -72,7 +73,7 @@ a {
 }
 
 .cursive{
-  font-family: 'Clicker Script', cursive;
+  font-family: 'Brush Script MT', cursive;
   font-size: 100px;
 
 }
