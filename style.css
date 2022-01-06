@@ -18,10 +18,13 @@ body {
 
 .logo{
   width:300px;
+  max-width:100%;
 }
 
 .cake{
   width:500px;
+  max-width:100%;
+
 }
 
 ul {
@@ -52,11 +55,14 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
   /*background-color:#ffc5e0*/
-
+  transition: color 0.2s;
 }
 
 
-
+a:hover{
+    
+  color:rgb(122, 122, 122);
+}
 .h1{
   /*font-family: 'Honey', Helvetica, sans-serif;*/
   padding:0px;
