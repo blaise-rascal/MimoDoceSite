@@ -16,15 +16,24 @@ body {
 	justify-content: center;
 }
 
-.logo{
+.logo-link{
   width:300px;
   max-width:40%;
+}
+
+.logo{
+  max-width:100%;
 }
 
 .cake{
   width:500px;
   max-width:80%;
 
+}
+
+.dividing-line{
+  max-width:50%;
+  margin-bottom:10px;
 }
 
 ul {
@@ -42,16 +51,16 @@ li{
 	padding: 8px;
   margin: 0px;
   margin-top:10px;
+  padding: 8px;
   font-size: 5vw;
   font-weight:bolder;
 }
 
 a {
   
+  color:black;
   display: block;
   text-align: center;
-  color:black;
-  padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
   /*background-color:#ffc5e0*/
@@ -73,7 +82,7 @@ a:hover{
   margin-left:auto;
   margin-right:auto;
   margin-top:20px;
-  margin-bottom:40px;
+  /*margin-bottom:40px;*/
   /*font-family: 'Sacramento', cursive;*/
   /*text-transform: lowercase;
   /*font-family: 'Brush Script MT', cursive;*/
@@ -94,6 +103,7 @@ a:hover{
   font-size: 5vw;
   margin-left:auto;
   margin-right:auto;
+  padding: 8px;
   margin-top:0px;
   margin-bottom:0px;
 }
@@ -113,6 +123,7 @@ a:hover{
   .h2{
     font-size: 30px;
   }
+
 }
 
 /*img {
