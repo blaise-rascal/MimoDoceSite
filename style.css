@@ -54,6 +54,8 @@ ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   gap:4vw;
+  margin-top:3vw;
+  margin-bottom:2vw;
 	display: flex;
 	justify-content: center;
 }
@@ -169,6 +171,8 @@ p{
 
   ul{
     gap:10px;
+    margin-top:5px;
+    margin-bottom:3px;
   }
 }
 
