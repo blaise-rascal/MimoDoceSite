@@ -53,17 +53,16 @@ ul {
   padding:0px;
   /* this removes the dots on the list items*/
   list-style-type: none;
-  
+  gap:4vw;
 	display: flex;
 	justify-content: center;
 }
 
 li{
-  flex-shrink: 0;
+  /*flex-shrink: 0;
 	padding: 8px;
-  margin: 0px;
+  margin: 0px;*/
   margin-top:10px;
-  padding: 8px;
   font-size: 5vw;
   font-weight:bolder;
 }
@@ -141,6 +140,7 @@ p{
   
   li{
     font-size:21px;
+  padding: 8px;
   }
   .h1 {
     font-size: 80px;
@@ -167,6 +167,9 @@ p{
     margin-bottom:30px;
   }
 
+  ul{
+    gap:10px;
+  }
 }
 
 /*img {
