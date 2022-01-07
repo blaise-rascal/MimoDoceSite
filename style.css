@@ -1,7 +1,6 @@
 body {
   /*font-family: 'Courier New', Courier, monospace;*/
   /*font-family: 'Yu Gothic', Courier, monospace;*/
-  font-family: 'Open Sans', sans-serif;
   font-family: sans-serif;
   /*font-family: 'Honey', Helvetica, sans-serif;*/
   /*font-weight:bold;*/
@@ -120,6 +119,7 @@ a:hover{
   padding: 8px;
   margin-top:0px;
   margin-bottom:0px;
+  font-style:italic;
 }
 
 p{
@@ -140,7 +140,7 @@ p{
 @media screen and (min-width: 800px) {
   
   li{
-    font-size:20px;
+    font-size:21px;
   }
   .h1 {
     font-size: 80px;
@@ -153,7 +153,7 @@ p{
   }
 
   p{
-    font-size:24px;
+    font-size:21px;
     margin-top:20px;
   }
 
