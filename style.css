@@ -82,6 +82,7 @@ a {
   text-decoration: none;
   /*background-color:#ffc5e0*/
   transition: color 0.2s;
+  display:inline;
 }
 
 
