@@ -13,10 +13,13 @@ body {
 .image-box{
 	display: flex;
 	justify-content: center;
-  flex-direction:column-reverse;
+  flex-direction: row;
 }
 
 .side-by-side{
+	display: flex;
+	justify-content: center;
+  flex-direction: column-reverse;
   margin-top:4vw;
   margin-bottom:3vw;
 }
@@ -156,10 +159,6 @@ p{
     font-size: 28px;
   }
 
-  .image-box{
-    justify-content: center;
-    flex-direction:row;
-  }
 
   .bemcasado{
     width:400px;
@@ -186,6 +185,7 @@ p{
     margin-bottom:30px;
     display:flex;
     justify-content:center;
+    flex-direction:row;
   }
 
   
