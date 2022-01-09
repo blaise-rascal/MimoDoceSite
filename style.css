@@ -13,11 +13,10 @@ body {
 .image-box{
 	display: flex;
 	justify-content: center;
+  flex-direction:column-reverse;
 }
 
 .side-by-side{
-  flex-direction: column-reverse;
-	justify-content: center;
   margin-top:4vw;
   margin-bottom:3vw;
 }
@@ -127,6 +126,7 @@ a:hover{
 
 p{
   font-size:5vw;
+  /*good to modify this*/
   text-align: center;
   margin:0px;
   margin-bottom:3vw;
@@ -137,7 +137,6 @@ p{
   max-width:800px;
   margin-left:4vw;
   margin-right:4vw;
-  text-align: left;
 }
 
 
@@ -157,10 +156,15 @@ p{
     font-size: 28px;
   }
 
-  
+  .image-box{
+    justify-content: center;
+    flex-direction:row;
+  }
+
   .bemcasado{
     width:400px;
-    max-width:50%;
+    margin-left:0px;
+    margin-right:0px;
   }
 
   p{
@@ -173,18 +177,18 @@ p{
   .sidebar{
     margin-left:40px;
     margin-right:40px;
+    max-width:400px;
+    
   }
 
   .side-by-side{
     margin-top:40px;
     margin-bottom:30px;
-    flex-direction: row;
+    display:flex;
+    justify-content:center;
   }
 
   
-  .sidebar{
-    max-width:400px;
-  }
 
   ul{
     gap:10px;
